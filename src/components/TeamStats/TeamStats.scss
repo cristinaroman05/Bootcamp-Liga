@@ -1,0 +1,40 @@
+@import "../../styles/variables.scss";
+
+.stats-card {
+  display: flex;
+  background-color: $background-generic-white;
+  width: 460px;
+  height: 48px;
+  border-radius: 10px;
+  gap: 100px;
+  margin: 20px 0;
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 14px;
+
+    &-number {
+      background-color: $background-generic-black;
+      color: $font-generic-white;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      margin: 0;
+    }
+    &-team {
+      display: flex;
+      justify-content: flex-start;
+      gap: 15px;
+    }
+  }
+  &__stats {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+}

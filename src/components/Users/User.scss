@@ -1,0 +1,75 @@
+@import "../../styles/variables.scss";
+
+.admin-user {
+  &__table {
+    background-color: $background-light-green;
+    border-radius: 20px;
+  }
+
+  &__team {
+    background-color: $background-light-green;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 60px;
+  }
+  &__content-title {
+    background-color: $background-generic-black;
+    color: $font-generic-white;
+    width: 460px;
+    padding: 18px;
+    border-radius: 10px;
+  }
+  &__row-block {
+    background-color: $background-white;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    height: 48px;
+  }
+  &__row-block-tr {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    position: relative;
+  }
+
+  &__table-head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &__table-row-photo-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+  }
+
+  &__table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+  }
+
+  &__table-row-out--button-edit {
+    border: none;
+    text-decoration: underline;
+    background: none;
+    color: $font-edit-grey;
+    font-size: 15px;
+  }
+
+  &__table-row-out--button-delete {
+    border: none;
+    text-decoration: underline;
+    background: none;
+    color: $font-edit-red;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+
+.admin-page__nav {
+  display: flex;
+  gap: 20px;
+  gap: 16px;
+
+  &--btn {
+    border: none;
+    background-color: $background-btn-gray;
+    width: 270px;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: $font-generic-white;
+  }
+
+  &--btn:hover {
+    cursor: pointer;
+    background-color: $background-dark-green;
+  }
+}

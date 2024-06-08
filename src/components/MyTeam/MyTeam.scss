@@ -1,0 +1,120 @@
+@import "../../styles/variables.scss";
+
+.my-team{
+  
+  &__team{
+    background-color: $background-light-green;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 60px;
+  }
+  &__content-title{
+    background-color: $backgroubd-black;
+    color: $font-generic-white;
+    width: 460px;
+    padding: 18px;
+    border-radius: 10px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+
+  }
+  &__row-block{
+      background-color: $background-white;
+      margin: 15px;
+      padding: 18px;
+      border-radius: 30px;
+      position: relative;
+
+  }
+  &__row-block-tr{
+      display: flex;
+      justify-content: space-evenly;
+      width: 1000px;
+      position: relative;
+  }
+  &__table-row-photo-img{
+      width: 60px;
+      height: 60px;
+      border-radius: 100px;
+      position: absolute;
+      left: -25px;
+      top: -27px;
+
+  }
+  &__table-head-name{
+      position: absolute;
+      left: 10%;
+      top: -7px;
+      font-size: 14px;
+
+  }
+  &__table-head-lastname{
+      position: absolute;
+      left: 30%;
+      top: -7px;
+      font-size: 14px;
+
+  }
+  &__table-head-email{
+      position: absolute;
+      left: 55%;
+      top: -7px;
+      font-size: 14px;
+
+  }
+  &__table-head-role{
+      position: absolute;
+      left: 75%;
+      top: -7px;
+      font-size: 14px;
+
+  }
+  &__table-head-out{
+      position: absolute;
+      left: 84%;
+      top: -7px;
+      font-size: 14px;
+      color: $font-edit-red;
+      font-weight: 400;
+  }
+  &__table-row-name{
+      position: absolute;
+      left: 10%;
+      top: -5px;
+      font-size: 14px;
+  }
+  &__table-row-lastname{
+      position: absolute;
+      left: 30%;
+      top: -5px;
+      font-size: 14px;
+  }
+  &__table-row-email{
+      position: absolute;
+      left: 49%;
+      top: -5px;
+      font-size: 14px;
+  }
+  &__table-row-role{
+      position: absolute;
+      left: 74%;
+      top: -5px;
+      font-size: 14px;
+  }
+  &__table-row-out{
+      position: absolute;
+      left: 85%;
+      top: -5px;
+      font-size: 14px;
+  }
+
+  &__table-row-out--button{
+      border: none;
+      text-decoration: underline;
+      background: none;
+      color: $font-edit-red;
+      font-size: 15px;
+  }
+
+}

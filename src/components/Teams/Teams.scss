@@ -1,0 +1,74 @@
+@import "../../styles/variables.scss";
+
+.teams-page {
+  &__title {
+    background-color: $background-generic-black;
+    color: $font-generic-white;
+    width: 460px;
+    padding: 18px;
+    border-radius: 10px;
+  }
+
+  &__table {
+    background-color: $background-light-green;
+    border-radius: 20px;
+    max-width: 1240px;
+    min-width: 1000px;
+    width: 100%;
+  }
+
+  &__row-block {
+    background-color: $background-white;
+    border-radius: 10px;
+    height: 48px;
+    margin: 20px 20px;
+
+    &-tr {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 20px 10px;
+    }
+    &--avatar {
+      width: 5%;
+      text-align: center;
+    }
+    &--head {
+      width: 15%;
+      text-align: left;
+    }
+    &--btn {
+      width: 40%;
+      margin-left: 50px;
+      text-align: right;
+
+      &-edit {
+        background-color: $background-white;
+        color: $font-edit-grey;
+        border: none;
+        font-size: 14px;
+        cursor: pointer;
+        margin: 0 10px;
+      }
+
+      &-edit:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+      }
+
+      &-delete {
+        background-color: $background-white;
+        color: $font-edit-red;
+        border: none;
+        font-size: 14px;
+        cursor: pointer;
+        margin: 0 10px;
+      }
+
+      &-delete:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+      }
+    }
+  }
+}

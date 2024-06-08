@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+
+.profile-info{
+  
+    &__profile-data{
+        text-align: center;
+        margin-bottom: 130px;
+        margin-top: 50px;
+
+    }
+    &__img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+    }
+    &__title{
+        font-size: 17px;
+        font-weight: 800;
+    }
+    &__subtitle{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &__button{
+        border: none;
+        text-decoration: underline;
+        background: none;
+        color: $font-edit-green;
+        font-size: 12px;
+    }
+
+}

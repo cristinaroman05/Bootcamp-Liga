@@ -1,0 +1,48 @@
+@import "../../styles/variables.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  &__title {
+    color: $font-generic-black;
+    text-decoration: none;
+    margin: 0 20px;
+    &-text {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  &__login {
+    height: 30px;
+    width: 160px;
+    margin: 0 20px;
+    font-size: 10px;
+    border: 1px solid $border-generic;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  &__login:hover {
+    cursor: pointer;
+    background-color: $background-generic-black;
+    color: $font-generic-white;
+  }
+  &__user-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+  }
+
+  &__name {
+    margin-right: 10px;
+  }
+
+  &__logout {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

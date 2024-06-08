@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+
+.league-page {
+  &__content-title {
+    background-color: $background-generic-black;
+    color: $font-generic-white;
+    width: 460px;
+    padding: 18px;
+    border-radius: 10px;
+  }
+
+  &__btn-box {
+    background-color: $background-light-green;
+    border: none;
+    width: 1000px;
+    height: 468px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    &--text {
+      font-size: 18px;
+      border: solid 1px $border-generic;
+      width: 200px;
+      height: 32px;
+      border-radius: 10px;
+    }
+    &--text:hover {
+      cursor: pointer;
+      background-color: $background-generic-black;
+      color: $font-generic-white;
+    }
+  }
+}

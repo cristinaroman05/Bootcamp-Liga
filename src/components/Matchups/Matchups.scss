@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+
+.matchups-card {
+  display: flex;
+  background-color: $background-generic-white;
+  width: 460px;
+  height: 48px;
+  border-radius: 10px;
+  gap: 100px;
+  margin: 20px 0;
+
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 14px;
+
+    &-team {
+      display: flex;
+      gap: 20px;
+    }
+    &-status {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $background-btn-gray;
+      width: 136px;
+      height: 30px;
+      border-radius: 10px;
+    }
+  }
+}
